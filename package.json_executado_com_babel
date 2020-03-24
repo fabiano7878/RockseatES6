@@ -12,6 +12,6 @@
     "webpack-cli": "^3.3.11"
   },
   "scripts": {
-    "dev": "webpack --mode=development -w"
+    "dev": "babel ./main.js -o ./bundle.js"
   }
 }
